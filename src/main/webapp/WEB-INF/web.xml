@@ -117,6 +117,17 @@
    		<servlet-name>initParamTest</servlet-name>
    		<url-pattern>/init</url-pattern>
    </servlet-mapping>
+   
+   <!-- 0725 수업 -->
+   <servlet>
+   		<servlet-name>mainServlet</servlet-name>
+   		<servlet-class>chap03.servlet.MainServlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+   		<servlet-name>mainServlet</servlet-name>
+   		<url-pattern>/main/*</url-pattern>
+   </servlet-mapping>
   
   
   
